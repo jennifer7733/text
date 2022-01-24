@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* 文字顏色 */
+.timeline-me-container {
+    color: #5B89AC;
+}
+
+
+/* 大標題設定 */
+.timeline-me-smallitem .timeline-me-label {
+    font-size:25px;
+    font-weight:400;
+}
+
+
+/* 線條顏色 */
+.timeline-me-track:before {
+    background: #89B1D0;
+}
+
+
+/* 圓形外框及內部顏色 */
+.timeline-me-milestone .timeline-me-label .timeline-me-picto {
+    background-color: #B7D3E9;  
+    border: 3px solid #5B89AC;
+    z-index:15;
+}
+
+.timeline-me-smallitem .timeline-me-label .timeline-me-picto {
+    background-color: #B7D3E9;  
+    border: 3px solid #5B89AC;
+    z-index:15;
+}
+
+.timeline-me-bigitem .timeline-me-label .timeline-me-picto {
+    background-color: #B7D3E9;  
+    border: 3px solid #5B89AC;
+    z-index:15;	
+}
+
+
+/* 內容背景顏色 */
+.timeline-me-shortcontent,
+.timeline-me-fullcontent {
+    background-color: #E1EFF9;
+}
+
+
+/* 內容的詳細功能 */
+.timeline-me-showmore {
+    margin-top:20px;
+    font-size:12px;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+/* 內容的摘要功能 */
+.timeline-me-showless {
+    margin-top:20px;
+    font-size:12px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.timeline-me-shortContent {
+    line-height: 50px;
+}
